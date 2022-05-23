@@ -4,8 +4,11 @@
     font-size: 16px;
 }
 
-.main-portada{
-    grid-gap: 400px;
+.titulo{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Koulen', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
 }
 
 .tarjetas{
