@@ -9,6 +9,7 @@
     font-family: 'Koulen', cursive;
     font-family: 'Oswald', sans-serif;
     font-weight: bolder;
+    font-style: italic;
 }
 
 .tarjetas{
@@ -26,15 +27,19 @@
 
 .button:hover {
     transform: scale(1.1);
-    background-image: linear-gradient(to top, blue,white);
-    color: white;
-    border: blue
+    background-image: linear-gradient(to top, white, lightblue);
+    color: black;
+    border: lightblue;
 }
 
-.display-2{
-    color: red;
+.grid__formulario{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-.display-6{
-    color: red;
+.grid__text-area{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
