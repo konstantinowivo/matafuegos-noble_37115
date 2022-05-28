@@ -4,9 +4,7 @@
   font-size: 16px; }
 
 .titulo {
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Koulen', cursive;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Bebas Neue", cursive;
   font-weight: bolder;
   font-style: italic;
   color: red; }
@@ -20,19 +18,21 @@
   border: white;
   color: black;
   border-radius: 15%; }
+  .button:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(to top, white, lightblue);
+    color: black;
+    border: lightblue; }
 
-.button:hover {
-  transform: scale(1.1);
-  background-image: linear-gradient(to top, white, lightblue);
-  color: black;
-  border: lightblue; }
-
-.grid__formulario {
+.grid formulario {
   display: grid;
   grid-template-columns: 25% 50% 25%;
   margin-top: 2%;
   margin-bottom: 2%; }
 
-.grid__text-area {
+.grid text-area {
   display: grid;
   grid-template-columns: 50% 50%; }
+
+.h2 fuente {
+  font-size: 15%; }
