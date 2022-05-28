@@ -1,17 +1,47 @@
+main .portada {
+  grid-area: portada;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../recursos/extintores_portada.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center; }
+  main .portada .titulo {
+    font-family: "Bebas Neue", cursive;
+    font-weight: bolder;
+    font-style: italic;
+    color: yellow; }
+
+main .conozcanosdivtitulo {
+  color: white; }
+
+main .tarjetas {
+  background-color: white;
+  color: black;
+  font-style: none; }
+
+header nav a {
+  font-family: "Bebas Neue", cursive;
+  color: yellow; }
+
+header navlink {
+  color: yellow; }
+
 * {
   margin: 0px;
   padding: 0px;
   font-size: 16px; }
 
-.titulo {
+body {
+  background-color: black;
   font-family: "Bebas Neue", cursive;
   font-weight: bolder;
   font-style: italic;
-  color: red; }
-
-.tarjetas {
-  background-color: #D9AFD9;
-  background-image: linear-gradient(18deg, #D9AFD9 0%, #97D9E1 33%, #ffffff 100%); }
+  color: white; }
 
 .button {
   background-image: linear-gradient(to top, gray, white);
@@ -33,6 +63,3 @@
 .grid text-area {
   display: grid;
   grid-template-columns: 50% 50%; }
-
-.h2 fuente {
-  font-size: 15%; }
