@@ -20,9 +20,7 @@ main .conozcanosdivtitulo {
   color: white; }
 
 main .tarjetas {
-  background-color: white;
-  color: black;
-  font-style: none; }
+  border-radius: 50%; }
 
 header nav a {
   font-family: "Bebas Neue", cursive;
@@ -40,12 +38,12 @@ body {
   background-color: black;
   font-family: "Bebas Neue", cursive;
   font-weight: bolder;
-  font-style: italic;
   color: white; }
+  body p {
+    font-size: 150%;
+    font-weight: normal; }
 
 .button {
-  background-image: linear-gradient(to top, gray, white);
-  border: white;
   color: black;
   border-radius: 15%; }
   .button:hover {
@@ -54,12 +52,5 @@ body {
     color: black;
     border: lightblue; }
 
-.grid formulario {
-  display: grid;
-  grid-template-columns: 25% 50% 25%;
-  margin-top: 2%;
-  margin-bottom: 2%; }
-
-.grid text-area {
-  display: grid;
-  grid-template-columns: 50% 50%; }
+.navbar-toggler-icon {
+  color: red; }
