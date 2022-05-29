@@ -1,0 +1,11 @@
+header{
+    nav{
+        a{
+        font-family: $font-principal;
+        color: $color-principal;
+        }
+        &link{
+        color: $color-principal;
+        }
+        }
+    }
