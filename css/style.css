@@ -1,4 +1,27 @@
-main .portada {
+@charset "UTF-8";
+/* las operaciones sumas,restas,mult. y división, sólo se hacen con variables/*
+/* pueden ser: colores, letras y tamaños */
+/* width=ancho height=alto */
+main .tarjetas {
+  border-radius: 50%; }
+
+header nav a {
+  font-family: "Bebas Neue", cursive;
+  color: yellow; }
+
+header navlink {
+  color: yellow; }
+
+.button {
+  color: black;
+  border-radius: 15%; }
+  .button:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(to top, white, lightblue);
+    color: black;
+    border: lightblue; }
+
+.portada {
   grid-area: portada;
   display: flex;
   flex-direction: column;
@@ -10,24 +33,11 @@ main .portada {
   background-size: cover;
   justify-content: center;
   align-items: center; }
-  main .portada .titulo {
+  .portada .titulo {
     font-family: "Bebas Neue", cursive;
     font-weight: bolder;
     font-style: italic;
     color: yellow; }
-
-main .conozcanosdivtitulo {
-  color: white; }
-
-main .tarjetas {
-  border-radius: 50%; }
-
-header nav a {
-  font-family: "Bebas Neue", cursive;
-  color: yellow; }
-
-header navlink {
-  color: yellow; }
 
 * {
   margin: 0px;
@@ -36,21 +46,27 @@ header navlink {
 
 body {
   background-color: black;
-  font-family: "Bebas Neue", cursive;
-  font-weight: bolder;
-  color: white; }
+  font-family: "Bebas Neue", cursive; }
   body p {
     font-size: 150%;
-    font-weight: normal; }
+    font-weight: normal;
+    color: white;
+    font-weight: bolder; }
+  body h1 {
+    font-style: italic;
+    color: yellow; }
+  body h2 {
+    font-style: italic;
+    color: yellow; }
 
-.button {
-  color: black;
-  border-radius: 15%; }
-  .button:hover {
-    transform: scale(1.1);
-    background-image: linear-gradient(to top, white, lightblue);
-    color: black;
-    border: lightblue; }
+h1 {
+  font-size: 5rem;
+  color: yellow; }
 
-.navbar-toggler-icon {
-  color: red; }
+h2 {
+  font-size: 4rem;
+  color: yellow; }
+
+h3 {
+  font-size: 3rem;
+  color: yellow; }

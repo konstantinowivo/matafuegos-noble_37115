@@ -1,0 +1,19 @@
+.portada{
+    grid-area: portada;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../recursos/extintores_portada.jpg");
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    justify-content: center;
+    align-items: center;
+    .titulo{
+        font-family: $font-principal;
+        font-weight: bolder;
+        font-style: italic;
+        color: $color-principal;
+        }
+    }
