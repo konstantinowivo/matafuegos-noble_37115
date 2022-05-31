@@ -19,7 +19,6 @@ body{
         font-size: 150%;
         font-weight: normal;
         color: white;
-        font-weight: bolder;
     }
     h1{
         font-style: $font-style;
@@ -29,10 +28,17 @@ body{
         font-style: $font-style;
         color: $color-principal;
     }
+    ul{
+        li{
+            font-size: 150%;
+            font-weight: normal;
+            color: white;
+        }
+    }
     }
 
 
-$sizes:(h1: 5rem, h2: 4rem, h3: 3rem);
+$sizes:(h1: 5rem, h2: 4rem, h3: 3rem, h4: 2rem,);
 
 @each $titulo, $size in $sizes {
     #{$titulo}{
@@ -40,6 +46,7 @@ $sizes:(h1: 5rem, h2: 4rem, h3: 3rem);
         color: yellow;
     }
 }
+
 
 
 
