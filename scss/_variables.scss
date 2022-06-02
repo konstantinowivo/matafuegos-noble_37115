@@ -1,4 +1,12 @@
-$font-principal: 'Bebas Neue', cursive;
+/* las operaciones sumas,restas,mult. y división, sólo se hacen con variables/*
+/* pueden ser: colores, letras y tamaños */
 $color-principal: yellow;
 $color-tarjetas: #D9AFD9;
+
+$font-principal: 'Bebas Neue', cursive;
+$font-style: italic;
 $display-font-sizes: 5rem;
+
+/* width=ancho height=alto */
+$ancho:3rem;
+$alto:1,5rem;

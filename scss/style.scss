@@ -2,6 +2,8 @@
 @import 'main';
 @import 'header';
 @import 'footer';
+@import 'button';
+@import 'portada';
 
 * { 
     margin: 0px;
@@ -12,28 +14,51 @@
 body{
     background-color: black;
     font-family: $font-principal;
-    font-weight: bolder;
-    color: white;
     p{
         font-size: 150%;
         font-weight: normal;
+        color: white;
     }
-    }
-
-
-.button{
-    color: black;
-    border-radius: 15%;
-    &:hover{
-        transform: scale(1.1);
-        background-image: linear-gradient(to top, white, lightblue);
-        color: black;
-        border: lightblue;
+    ul{
+        li{
+            font-size: 150%;
+            font-weight: normal;
+            color: white;
+        }
     }
 }
-.navbar-toggler-icon{
-    color: red;
+
+
+$sizes:(h1: 5rem, h2: 4rem, h3: 3rem, h4: 2rem,);
+
+@each $titulo, $size in $sizes {
+    #{$titulo}{
+        font-size: ($size);
+        color: yellow;
+    }
 }
+
+@mixin clases ($fondo, $color){
+    background-color: $fondo;
+    color: $color;
+    font-size: 3rem;
+    font-style: 'Bebas Neue', cursive;
+    align-items: center;
+}
+
+
+.clases-a{
+    @include clases (#34E92B, #FFFFFF);
+}
+
+.clases-b{
+    @include clases (#DC0404, #FFFFFF);
+}
+
+.clases-c{
+    @include clases (#3119FA, #FFFFFF)
+}
+
 
 
 
