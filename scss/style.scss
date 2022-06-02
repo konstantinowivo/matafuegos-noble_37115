@@ -1,5 +1,4 @@
 @import 'variables';
-@import 'sasscrip';
 @import 'main';
 @import 'header';
 @import 'footer';
@@ -20,14 +19,6 @@ body{
         font-weight: normal;
         color: white;
     }
-    h1{
-        font-style: $font-style;
-        color: $color-principal;
-    }
-    h2{
-        font-style: $font-style;
-        color: $color-principal;
-    }
     ul{
         li{
             font-size: 150%;
@@ -35,7 +26,7 @@ body{
             color: white;
         }
     }
-    }
+}
 
 
 $sizes:(h1: 5rem, h2: 4rem, h3: 3rem, h4: 2rem,);
@@ -47,6 +38,26 @@ $sizes:(h1: 5rem, h2: 4rem, h3: 3rem, h4: 2rem,);
     }
 }
 
+@mixin clases ($fondo, $color){
+    background-color: $fondo;
+    color: $color;
+    font-size: 3rem;
+    font-style: 'Bebas Neue', cursive;
+    align-items: center;
+}
+
+
+.clases-a{
+    @include clases (#34E92B, #FFFFFF);
+}
+
+.clases-b{
+    @include clases (#DC0404, #FFFFFF);
+}
+
+.clases-c{
+    @include clases (#3119FA, #FFFFFF)
+}
 
 
 
