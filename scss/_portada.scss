@@ -1,8 +1,88 @@
-.portada{
+.portada__index{
     grid-area: portada;
     display: flex;
     flex-direction: column;
-    background-image: url("../recursos/extintores_portada.jpg");
+    background-image: url("../recursos/portada.index.jpg");
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    justify-content: center;
+    align-items: center;
+    .titulo{
+        font-family: $font-principal;
+        font-weight: bolder;
+        font-style: italic;
+        color: $color-principal;
+        }
+    }
+
+.portada__contacto{
+    grid-area: portada;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../recursos/portada.contacto.jpg");
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    justify-content: center;
+    align-items: center;
+    .titulo{
+        font-family: $font-principal;
+        font-weight: bolder;
+        font-style: italic;
+        color: $color-principal;
+        }
+    }
+
+.portada__extintores{
+    grid-area: portada;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../recursos/portada.extintores.jpg");
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    justify-content: center;
+    align-items: center;
+    .titulo{
+        font-family: $font-principal;
+        font-weight: bolder;
+        font-style: italic;
+        color: $color-principal;
+        }
+    }
+
+.portada__gases{
+    grid-area: portada;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../recursos/portada.gases.jpg");
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    justify-content: center;
+    align-items: center;
+    .titulo{
+        font-family: $font-principal;
+        font-weight: bolder;
+        font-style: italic;
+        color: $color-principal;
+        }
+    }
+
+.portada__tienda{
+    grid-area: portada;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../recursos/portada.tienda.online\ \(2\).jpg");
     height: 50vh;
     background-attachment: fixed;
     background-position: center;
