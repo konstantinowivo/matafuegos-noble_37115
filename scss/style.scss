@@ -18,6 +18,8 @@ body{
         font-size: 150%;
         font-weight: normal;
         color: white;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
     }
     ul{
         li{
@@ -35,6 +37,7 @@ $sizes:(h1: 5rem, h2: 4rem, h3: 3rem, h4: 2rem,);
     #{$titulo}{
         font-size: ($size);
         color: yellow;
+        font-family: $font-principal;
     }
 }
 

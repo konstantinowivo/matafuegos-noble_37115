@@ -25,11 +25,11 @@ header .navbar-nav .nav-item {
     color: black;
     border: lightblue; }
 
-.portada {
+.portada__index {
   grid-area: portada;
   display: flex;
   flex-direction: column;
-  background-image: url("../recursos/extintores_portada.jpg");
+  background-image: url("../recursos/portada.index.jpg");
   height: 50vh;
   background-attachment: fixed;
   background-position: center;
@@ -37,7 +37,79 @@ header .navbar-nav .nav-item {
   background-size: cover;
   justify-content: center;
   align-items: center; }
-  .portada .titulo {
+  .portada__index .titulo {
+    font-family: "Bebas Neue", cursive;
+    font-weight: bolder;
+    font-style: italic;
+    color: yellow; }
+
+.portada__contacto {
+  grid-area: portada;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../recursos/portada.contacto.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center; }
+  .portada__contacto .titulo {
+    font-family: "Bebas Neue", cursive;
+    font-weight: bolder;
+    font-style: italic;
+    color: yellow; }
+
+.portada__extintores {
+  grid-area: portada;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../recursos/portada.extintores.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center; }
+  .portada__extintores .titulo {
+    font-family: "Bebas Neue", cursive;
+    font-weight: bolder;
+    font-style: italic;
+    color: yellow; }
+
+.portada__gases {
+  grid-area: portada;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../recursos/portada.gases.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center; }
+  .portada__gases .titulo {
+    font-family: "Bebas Neue", cursive;
+    font-weight: bolder;
+    font-style: italic;
+    color: yellow; }
+
+.portada__tienda {
+  grid-area: portada;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../recursos/portada.tienda.online (2).jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center; }
+  .portada__tienda .titulo {
     font-family: "Bebas Neue", cursive;
     font-weight: bolder;
     font-style: italic;
@@ -54,7 +126,9 @@ body {
   body p {
     font-size: 150%;
     font-weight: normal;
-    color: white; }
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold; }
   body ul li {
     font-size: 150%;
     font-weight: normal;
@@ -62,19 +136,23 @@ body {
 
 h1 {
   font-size: 5rem;
-  color: yellow; }
+  color: yellow;
+  font-family: "Bebas Neue", cursive; }
 
 h2 {
   font-size: 4rem;
-  color: yellow; }
+  color: yellow;
+  font-family: "Bebas Neue", cursive; }
 
 h3 {
   font-size: 3rem;
-  color: yellow; }
+  color: yellow;
+  font-family: "Bebas Neue", cursive; }
 
 h4 {
   font-size: 2rem;
-  color: yellow; }
+  color: yellow;
+  font-family: "Bebas Neue", cursive; }
 
 .clases-a {
   background-color: #34E92B;
